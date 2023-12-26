@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullbg{
+    height: 580px;
+    width: 1280px;
+    background: linear-gradient(#646e6d,#777f73,#878f77,#969a83,#7e8573,#403f3b,#31302b,#3e382c);
+}
+
+/* Tree */
+.subject{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tree{
+    position: relative;
+    top: 0px;
+    left: 880px;
+
+}
+.tp{
+    background-color: #31302b;
+    width: 400px;
+    height: 159px;
+    border-radius: 0% 0% 22% 53% / 29% 56% 37% 69% ;
+    position: relative;
+    z-index: 10;
+}
+.mdl{
+    background-color: #31302b;
+    height: 300px;
+    width: 100px;
+    border-radius: 0% 8% 0% 0% / 46% 41% 22% 10% ;
+    left: 215px;
+    position: relative;
+    z-index: 10;
+}
+.btm{
+    background:linear-gradient(#31302b,#3e382c);
+    width: 200px;
+    height: 116px;
+    border-radius: 28% 33% 0% 0% / 106% 56% 22% 10%;
+    position: relative;
+    left: 168px;
+}
+
+.moon{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 110px;
+    width: 110px;
+    border-radius: 500%;
+    position: relative;
+    bottom: 465px;
+    left: 110px;
+    z-index: 0;
+}
+.bench{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bench1{
+    background-color: #31302b;
+    height: 40px;
+    width: 474px;
+    position: relative;
+    left: 774px;
+    top: 300px;
+}
+.bench2{
+    background-color: #31302b;
+    height: 7px;
+    width: 474px;
+    position: relative;
+    left: 774px;
+    top: 350px;
+    border-top-style:inset;
+    border-top-color: #ababa6;
+    z-index: 2;
+}
+.bench3{
+    background-color: #31302b;
+    height: 211px;
+    width: 20px;
+    position: relative;
+    left: 796px;
+    top: 240px;
+    z-index: 4;
+}
+.person{
+    position: absolute;
+}
+.head{
+    background: #31302b;
+    height: 57px;
+    width: 55px;
+    border-radius: 49% 44% 37% 44% / 57% 53% 43% 39%;
+    position: relative;
+    left: 887px;
+    top: 216px;
+}
+.nick{
+    background: #31302b;
+    height: 12px;
+    width: 26px;
+    left: 902px;
+    top: 214px;
+    position: relative;
+}
+.sholder1{
+    background: #31302b;
+    border-radius: 100% 0% 0% 0% / 87% 86% 14% 13% ;
+    position: relative;
+    height: 24px;
+    width: 45px;
+    left: 870px;
+    top: 211px;
+}
+.sholder2{
+    background: #31302b;
+    border-radius: 0% 100% 0% 0% / 52% 86% 14% 24%  ;
+    position: relative;
+    height: 24px;
+    width: 45px;
+    left: 914px;
+    top: 188px;
+}
+.hand{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hand1{
+    position: relative;
+    height: 76px;
+    width: 15px;
+    left: 867px;
+    top: 327px;
+    background-color: #31302b;
+    border-radius: 0% 0% 0% 100% / 0% 86% 14% 100%;
+}
+.hand2{
+    position: relative;
+    height: 76px;
+    width: 15px;
+    left: 948px;
+    top: 255px;
+    background-color: #31302b;
+    border-radius: 0% 0% 100% 0% / 0% 0% 100% 100%;
+}
+.bdy{
+    background-color: #31302b;
+    position: relative;
+    height: 69px;
+    width: 62px;
+    left: 884px;
+    top: 188px;
+}
+.middl1{
+    background-color: #31302b;
+    position: relative;
+    height: 53px;
+    width: 34px;
+    left: 878px;
+    top: 183px;
+    rotate: 20deg;
+}
+.middl2{
+    background-color: #31302b;
+    position: relative;
+    height: 53px;
+    width: 34px;
+    left: 918px;
+    top: 128px;
+    rotate: 160deg;
+}
+.leg1{
+    position: relative;
+    height: 76px;
+    width: 25px;
+    left: 931px;
+    top: 122px;
+    rotate: 180deg;
+    background-color: #31302b;
+}
+.leg2{
+    position: relative;
+    height: 76px;
+    width: 25px;
+    left: 874px;
+    top: 46px;
+    rotate: 180deg;
+    background-color: #31302b;
+}
+
+.star{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.str{
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.str1{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  backdrop-filter: blur(15px);
+  position: relative;
+  left: 867px;
+}
+.str2{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(15px);
+  position: relative;
+  left: 716px;
+  top: -24px;
+}
+.str3{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  backdrop-filter: blur(53px);
+  position: relative;
+  left: 468px;
+  top: 70px;
+}
+.str4{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(15px);
+  position: relative;
+  left: 200px;
+}
+.str5{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(15px);
+  position: relative;
+  left: 204px;
+}
+.str6{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    height: 8px;
+    width: 8px;
+    left: 10px;
+    top: -70px;
+}
+.str7{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    height: 8px;
+    width: 8px;
+    left: 8px;
+    top: -70px;
+}
+.str8{
+    background: linear-gradient(#f3eca6,#fff9ec,#bec1a3);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    height: 8px;
+    width: 8px;
+    left: 14px;
+    top: -82px;
+}
+.str9{
+    background: linear-gradient(#fffffe,#ebe9e5,#e1e3d0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    left: 288px;
+    top: 157px;
+}
+.str10{
+    background: linear-gradient(#fffffe,#ebe9e5,#e1e3d0);
+    border-radius: 50%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    height: 12px;
+    width: 12px;
+    left: 48px;
+    top: 100px;
+}
+/* Text */
+.text{
+    display: inline-block;
+}
+.txt{
+    font-size: 22px;
+  letter-spacing: 0px;
+  font-family: monospace;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s, 
+            cursor .4s step-end infinite;
+  top: 502px;
+  position: relative;
+}
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+@keyframes typing{
+    from{width: 0;}
+}
